@@ -10,14 +10,13 @@ sudo chown prometheus:prometheus /etc/prometheus
 sudo chown prometheus:prometheus /var/lib/prometheus
 
 # download link
-wget https://github.com/prometheus/prometheus/releases/download/v2.7.1/prometheus-2.7.1.linux-amd64.tar.gz
+wget https://github.com/prometheus/prometheus/releases/download/v2.48.1/prometheus-2.48.1.linux-amd64.tar.gz
 
 # unarchive the downloaded file
-tar xvfz prometheus-2.7.1.linux-amd64.tar.gz
+tar xvfz prometheus-2.48.1.linux-amd64.tar.gz
 
 # executing process
-cd prometheus-2.7.1.linux-amd64/
-
+cd prometheus-2.48.1.linux-amd64/
 
 
 # copy installations to folder & allow permission
